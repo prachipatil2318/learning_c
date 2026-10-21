@@ -13,11 +13,11 @@
 int main()
 {
 	printf("Welcome to C Language!!\n");
-	printf("Learned about Datatype and Basic intro about C.");
+	printf("Learned about Datatype and Basic intro about C.\n");
 
 	
-	//    int num1=10;
-	//    printf("Value of num1 is %d", num1);
+	int num1=10;
+	printf("Value of num1 is %d", num1);
 	return 0;	
 }
 
