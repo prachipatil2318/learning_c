@@ -98,7 +98,19 @@ int main(){
 	printf("Result for Bitwise XOR: %d\n",res2);
 	int res3=~n1;// 0100 -> 1011 = -5 (Change 1 into 0 and 0 into 1 and then follow rule of -(num+1) : eg: -(4+1)=-5)
 	printf("Result for Bitwise NOT: %d\n",res3);
-	
+	//Right Shift (>>)
+	int n3=60;
+	printf("RightShift of 60: %d\n",n3>>1);
+	printf("RightShift of 60: %d\n",n3>>2);
+	printf("RightShift of 60: %d\n",n3>>3);
+	printf("RightShift of 60: %d\n",n3>>4);
+	//Left Shift (<<)
+	int n4=3;
+	printf("LeftShift of 60: %d\n",n4<<1);
+	printf("LeftShift of 60: %d\n",n4<<2);
+	printf("LeftShift of 60: %d\n",n4<<3);
+	printf("LeftShift of 60: %d\n",n4<<4);
+
 }
 
 	
