@@ -57,6 +57,15 @@ int main(){
 	for(num1=2;num1<=10;num1+=2){
 		printf("%d is Even number\n",num1);
 	}
+	//7- Calculate sum of all numbers from 1 to 5 for eg: 1+2+3+4+5=15 
+	printf("---------------------------------------\n");
+	printf("sum of all numbers from 1 to 5 is: ");
+	int number1;
+	int sum=0;
+	for(number1=1;number1<=5;number1++){
+		sum+=number1;
+	}
+	printf("%d\n",sum);
 	
 	
 }
