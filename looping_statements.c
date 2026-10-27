@@ -52,7 +52,7 @@ int main(){
 	}
 	//6- Check if number are even or odd from 1 to 10 without using if statement
 	printf("---------------------------------------\n");
-	printf("Number are even or odd from 1 to 10 without using if statement\n");
+	printf("Number are even from 1 to 10 without using if statement\n");
 	int num1;
 	for(num1=2;num1<=10;num1+=2){
 		printf("%d is Even number\n",num1);
