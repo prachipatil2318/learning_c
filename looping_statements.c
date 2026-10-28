@@ -4,6 +4,7 @@
 	//2. While Loop
 	//3. Do-While Loop
 int main(){
+//	------------------------------------------------------------------	
 		// 1. For Loop
 	//1- Number from 1 to 10
 	printf("Number from 1 to 10 \n");
@@ -66,7 +67,48 @@ int main(){
 		sum+=number1;
 	}
 	printf("%d\n",sum);
+	//8- Fibonacci series
+	int number2,fact=1;
+	printf("Enter the number: ");
+	scanf("%d",&number2);
+	for(i=1;i<=number2;i++){
+		fact*=i;
+	}
+	printf("Factorial is: %d\n",fact);
+	//9- Write a C program to print number between 1 to 50 which are divisible by 5
+	int number3;
+	for(number3=1;number3<=50;number3++){
+		if(number3%5==0){
+			printf("%d\n",number3);
+		}
+	}
 	
 	
+//	------------------------------------------------------------------	
+		// Nested For Loop - Pattern Printing Questions
+//	int x,y;
+//	for(x=1;x<=4;x++){
+//		for(y=1;y<=4;y++){			// ****
+//			printf("*");			// ****
+//		}							// ****
+//		printf("\n");				// ****
+//	}
+	
+//	int x,y;
+//	for(x=1;x<=5;x++){				// *****
+//		for(y=x;y<=5;y++){			// ****
+//			printf("*");			// ***
+//		}							// **	
+//		printf("\n");				// *
+//	}
+
+	int count=1,i,j;				// 123
+	for(i=1;i<=3;i++){				// 456
+		for(j=1;j<=3;j++){			// 789
+			printf("%d",count);		
+			count++;				
+		}
+		printf("\n");
+	}
 }
 
