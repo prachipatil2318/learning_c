@@ -17,19 +17,19 @@
     //13. Write a C program to check whether a number is divisible by 5 or not.
     //14. Write a C program to check whether two numbers are equal or not.
     
-	//Else-If Ladder – Practice Questions
-	//1. Write a C program to display student grades based on marks:
-	//- 90 and above – Grade A
-	//- 75 to 89 – Grade B
-	//- 60 to 74 – Grade C
-	//- 35 to 59 – Grade D
-	//- Below 35 – Fail
-	//
-	//2. Write a C program to calculate discount based on shopping amount:
-	//- Above ?10,000 – 20% discount
-	//- Above ?5,000 – 10% discount
-	//- Above ?2,000 – 5% discount
-	//- ?2,000 or below – No discount
+	//Else-If Ladder Practice Questions
+	// Write a C program to display student grades based on marks:
+	// 90 and above Grade A
+	// 75 to 89 Grade B
+	// 60 to 74 Grade C
+	// 35 to 59 Grade D
+	// Below 35 Fail
+	
+	// Write a C program to calculate discount based on shopping amount:
+	// Above 10,000 20% discount
+	// Above 5,000 10% discount
+	// Above 2,000 5% discount
+	// 2,000 or below No discount
 int main()
 {
 	// //1. Write a C program to check whether a person is eligible to vote (age should be 18 or above).
@@ -124,8 +124,6 @@ int main()
 //		printf("Incorrect password!");
 //	}
 	
-	
-	
     //13. Write a C program to check whether a number is divisible by 5 or not.
 //	  int number2;
 //		printf("Enter number: ");
@@ -149,13 +147,13 @@ int main()
 //			printf("Number are not equal!");
 //	 }
 	 
-	//Else-If Ladder – Practice Questions
+	//Else-If Ladder Practice Questions
 	//1. Write a C program to display student grades based on marks:
-	//- 90 and above – Grade A
-	//- 75 to 89 – Grade B
-	//- 60 to 74 – Grade C
-	//- 35 to 59 – Grade D
-	//- Below 35 – Fail
+	//- 90 and above Grade A
+	//- 75 to 89 Grade B
+	//- 60 to 74 Grade C
+	//- 35 to 59 Grade D
+	//- Below 35 Fail
 //    int std_marks;
 //    printf("Enter your marks: ");
 //    scanf("%d", &std_marks);
@@ -178,29 +176,37 @@ int main()
 //        printf("Invalid marks!");
 //    }
 
-//2. Write a C program to calculate discount based on shopping amount:
-//- Above ?10,000 – 20% discount
-//- Above ?5,000 – 10% discount
-//- Above ?2,000 – 5% discount
-//- ?2,000 or below – No discount
-
-	//Input and Calculation Programs
-	//1. Write a C program to accept two numbers and calculate their addition.
+	//2. Write a C program to calculate discount based on shopping amount:
+	//- Above 10,000 20% discount
+	//- Above 5,000 10% discount
+	//- Above 2,000 5% discount
+	//- 2,000 or below No discount
+	int amt;
+	printf("Enter the amount: ");
+	scanf("%d",&amt);
 	
-	//2. Write a C program to accept two numbers and calculate their subtraction.
+	if(amt>=0 && amt<=2000){
+		printf("Your total amount is %d that's why No Discount!\n",amt);
+	}
+	else if(amt>2000 && amt<=5000){
+		int discount=5;
+		int totalamt=amt-(amt*discount/100);
+		printf("Your total amount is %d soo, You'll get about %d of discount!\n",amt,totalamt);
+	}
+	else if(amt>5000 && amt<=10000){
+		int discount=10;
+		int totalamt=amt-(amt*discount/100);
+		printf("Your total amount is %d, You'll get about %d of discount!\n",amt,totalamt);
+	}
+	else if(amt>10000){
+		int discount=20;
+		int totalamt=amt-(amt*discount/100);
+		printf("Congrats! Your total amount is %d, You'll get about %d of discount!\n",amt,totalamt);
+	}
+	else{
+		printf("Invalid amt %d\n",amt);
 	
-	//3. Write a C program to accept two numbers and calculate their multiplication.
+	}
 	
-	//4. Write a C program to accept two numbers and calculate their division.
-	
-	//5. Write a C program to accept length and width and calculate the area of a rectangle.
-	
-	//6. Write a C program to accept the radius of a circle and calculate its area.
-	
-	//7. Write a C program to accept marks of three subjects and calculate the total marks.
-
-	
-	
-	
-	
+		
 }
