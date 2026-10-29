@@ -67,7 +67,7 @@ int main(){
 		sum+=number1;
 	}
 	printf("%d\n",sum);
-	//8- Fibonacci series
+	//8- Factorial series
 	int number2,fact=1;
 	printf("Enter the number: ");
 	scanf("%d",&number2);
