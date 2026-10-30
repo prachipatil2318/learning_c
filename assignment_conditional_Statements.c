@@ -1,14 +1,3 @@
-
-
-
-
-
-
-//9. Electricity Bill: Check whether electricity consumption is greater than 100 units. If yes, check whether it is greater than 300 units.
-
-//10. Employee Bonus: Check whether an employee has completed 1 year in the company. If yes, check whether their performance rating is greater than or equal to 4.
-
-
 #include<stdio.h>
 int main(){
 		//1. Positive Number: Write a C program to check whether a number is positive. If positive, check whether it is even or odd.
@@ -132,9 +121,68 @@ int main(){
 
 
 		//8. Online Shopping: Check whether the user is logged in. If logged in, check whether the product is available. If available, check whether the payment is successful.
+//	char uname[20],pass[20],isprdavailable,paymentsuccess;
+//	printf("Enter Your username: \n");
+//	scanf("%19s",&uname);
+//	if(strcmp(uname,"Prachi")==0){
+//		printf("Enter Your password: \n");
+//		scanf("%19s",&pass);	
+//		if(strcmp(pass,"Prachi123")==0){
+//			printf("Login Successful.\n");
+//			printf("Enter 1 if Product is available or 0 if not available: \n");
+//			scanf("%d",&isprdavailable);
+//			if(isprdavailable==1){
+//				printf("Product is available!\n");
+//				printf("Enter 1 if payment is successful or 0 if unsuccessful: \n");
+//				scanf("%d",&paymentsuccess);
+//				if(paymentsuccess==1){
+//					printf("Congrats your payment is successful!\n");
+//				}else{
+//					printf("Sorry! Your payment is not successful!\n");
+//				}
+//			}else{
+//				printf("Product is not available!");
+//			}
+//		}
+//		else{
+//			printf("Password is incorrect.\n");
+//		}
+//	}else{
+//		printf("Username is incorrect.\n");
+//	}
+
+
+		//9. Electricity Bill: Check whether electricity consumption is greater than 100 units. If yes, check whether it is greater than 300 units.
+//	int ElectConsum;
+//	printf("Enter your Electricity Consumption: ");
+//	scanf("%d",&ElectConsum);
+//	if(ElectConsum>100){
+//		if(ElectConsum>300){
+//			printf("Your Electricity Consumption is more than 300 Units.\n");
+//		}else{
+//			printf("Your Electricity Consumption is more than 100 Units but less than 300 Units.\n");
+//		}	
+//	}else{
+//		printf("Your Electricity Consumption is less than 100 Units.\n");
+//	}
+
 	
-
-
+		//10. Employee Bonus: Check whether an employee has completed 1 year in the company. If yes, check whether their performance rating is greater than or equal to 4.
+//	int yrs,rating;
+//	printf("How many years have you completed in company: \n");
+//	scanf("%d",&yrs);
+//	if(yrs>=1){
+//		printf("What is your performance rating out fro 1 to 5: \n");
+//		scanf("%d",&rating);
+//		if(rating>=4){
+//			printf("Great your performance rating is good!\n");
+//		}else{
+//			printf("Your rating is less than 4. You can do better. Best Luck!\n");
+//		}	
+//	}else{
+//		printf("You have not completed even 1 year at company.\n");
+//	}
+	
 
 
 
