@@ -1,4 +1,11 @@
 #include<stdio.h>
+
+		// Structure: 
+				//1. User define data type, we can store multiple value together.
+				//2. eg: Student management, employee management system.
+				//3. Each memory has it's own memory space.
+				//4. Can access members at a same time.
+
 struct employee
 {
 	int eid;
